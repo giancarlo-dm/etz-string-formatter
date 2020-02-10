@@ -1,0 +1,46 @@
+{
+    "name": "@enterprize/string-formatter",
+    "version": "1.0.0",
+    "description": "Formats and validates strings against arbitrary patterns",
+    "author": "Giancarlo Dalle Mole",
+    "license": "MIT",
+    "funding": {
+        "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8KT6SPVB84XLY&source=url"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "gulp",
+        "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/giancarlo-dm/etz-string-formatter.git"
+    },
+    "keywords": [
+        "String",
+        "Formatter",
+        "Pattern",
+        "Currency",
+        "Mask"
+    ],
+    "bugs": {
+        "url": "https://github.com/giancarlo-dm/etz-string-formatter/issues"
+    },
+    "homepage": "https://github.com/giancarlo-dm/etz-string-formatter#readme",
+    "devDependencies": {
+        "@types/chai": "4.2.8",
+        "@types/mocha": "7.0.1",
+        "@types/node": "12.12.26",
+        "chai": "4.2.0",
+        "del": "5.1.0",
+        "gulp": "4.0.2",
+        "gulp-terser": "1.2.0",
+        "gulp-typescript": "6.0.0-alpha.1",
+        "mocha": "7.0.1",
+        "source-map-support": "0.5.16",
+        "tslib": "1.10.0",
+        "ts-node": "8.6.2",
+        "typescript": "3.7.5"
+    }
+}
