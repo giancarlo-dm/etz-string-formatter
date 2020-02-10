@@ -12,7 +12,7 @@ describe("String Formatter", () => {
             const currency: string = "2538792";
             const formattedCurrency: string = currencyFormatter.apply(currency);
 
-            expect(formattedCurrency).to.equal("R$ 25.387,92")
+            expect(formattedCurrency).to.equal("R$ 25.387,92");
         });
 
         it("Percentage", () => {
@@ -21,7 +21,7 @@ describe("String Formatter", () => {
             const percentage: string = "3821";
             const formattedPercentage: string = percentFormatter.apply(percentage);
 
-            expect(formattedPercentage).to.equal("38,21%")
+            expect(formattedPercentage).to.equal("38,21%");
         });
 
         it("Number", () => {
@@ -30,8 +30,7 @@ describe("String Formatter", () => {
             const number: string = "1854";
             const formattedNumber: string = numberFormatter.apply(number);
 
-            expect(formattedNumber).to.equal("1.854")
+            expect(formattedNumber).to.equal("1.854");
         });
     });
-
 });
